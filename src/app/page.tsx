@@ -1,21 +1,15 @@
 import Image from "next/image";
-import { Navbar } from "./components/Navbar";
-import { Banner } from "./components/Banner";
-import { ProductsCard } from "./components/ProductsCard";
-import { Footer } from "./components/Footer";
+import { Navbar, HomeBanner, ProductsGrid, Footer } from "@/components/sections";
 
 export default function Home() {
   return (
-
     <>
       <Navbar />
-      <Banner />
       <main>
-        
-        <ProductsCard />
+        <HomeBanner />
+        <ProductsGrid />
       </main>
       <Footer />
     </>
-
   );
 }
