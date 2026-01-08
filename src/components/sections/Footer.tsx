@@ -134,7 +134,7 @@ export const Footer = () => {
         {/* Copyright */}
         <div className="mt-12 pt-8 border-t border-gray-200 text-center">
           <p className="text-gray-600 text-sm">
-            © {new Date().getFullYear()} <span className="font-semibold bg-linear-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">StyleAI</span>. Todos los derechos reservados.
+            © {new Date().getFullYear()} <span className="font-semibold bg-linear-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">Loja Moda</span>. Todos los derechos reservados.
           </p>
           <p className="text-gray-500 text-xs mt-2">
             Hecho con ❤️ para revolucionar la moda online
