@@ -1,8 +1,15 @@
+
 export default function PageCollections() {
   return (
-    <div>
-      <h3>hola</h3>
-    </div>
+   <> 
+
+   <main>
+
+  
+    </main>
+   
+
+   </>
   );
 }
 
