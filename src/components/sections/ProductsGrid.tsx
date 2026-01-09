@@ -20,7 +20,7 @@ const CategoryCard = ({ title, image, alt, gradient }: CategoryCardProps) => {
       <div className="absolute inset-0 flex flex-col justify-end p-6 lg:p-8">
         <h3 className="text-3xl lg:text-4xl font-bold text-white mb-4">{title}</h3>
         <button className="group/btn w-fit px-6 py-3 bg-white text-gray-900 font-semibold rounded-xl hover:bg-indigo-600 hover:text-white transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105">
-          Ver colección
+         <a href="/collections">Ver colección</a> 
           <span className="inline-block ml-2 group-hover/btn:translate-x-1 transition-transform">→</span>
         </button>
       </div>
