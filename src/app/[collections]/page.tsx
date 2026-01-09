@@ -255,9 +255,9 @@ export default function PageCollections() {
             </div>
         </section>
 
-
-      </main>
-
+  
+    </main>
+   
 
     </>
   );
